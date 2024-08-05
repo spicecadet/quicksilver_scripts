@@ -1,6 +1,8 @@
 # Multidev Creation Alert Quicksilver Script
 
-Quicksilver allows automation of websites throughout the WebOps deploy process on Pantheon. This script will automate messaging during the creation of Multidev environments. On creation, an email will be created and sent via Sendgrid. A ZenDesk ticket will then be created via API. 
+Quicksilver allows automation of websites throughout the WebOps deploy process on Pantheon. This script will automate messaging during the creation of Multidev environments. On creation, an email will be created and sent via Sendgrid. A ZenDesk ticket will then be created via API. This script relies on the Sendgrid PHP Library and the Zendesk PHP API Client. These have both been included in this repo in order to run in Pantheon's Quicksilver environment. Details can be found below:
+- https://github.com/sendgrid/sendgrid-php
+- https://github.com/zendesk/zendesk_api_client_php
 
 ## Installation
 

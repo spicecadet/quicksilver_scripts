@@ -4,7 +4,7 @@ Quicksilver allows automation of websites throughout the WebOps deploy process o
 
 ## Installation
 
-The files in this directory should be copied to your site's /private/scripts/quicksilver directory. Credentials that are required for this script to work can be kept in a secrets.json file which will be stored in your site's private directory. Copy the secrets-example.json file to secrets.json and add values for the script parameters.
+This directory should be copied to your site's /private/scripts/quicksilver directory. Credentials that are required for this script to work can be kept in a secrets.json file which will be stored in your site's private directory. Copy the secrets-example.json file to secrets.json and add values for the script parameters.
 
 ```bash
 # Get SFTP credentials for your site and connect

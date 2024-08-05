@@ -20,6 +20,8 @@ In order for the script to be triggered when a Multidev environment is created, 
 ```
 # pantheon.yml
 
+api_version: 1
+
 workflows:
   create_cloud_development_environment:
     after:

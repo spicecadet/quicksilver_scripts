@@ -1,0 +1,5 @@
+# Ignore git repos in composer dependencies
+/vendor/**/.git
+
+# Ignore secrets
+secrets.json

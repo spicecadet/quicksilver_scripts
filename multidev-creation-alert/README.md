@@ -8,10 +8,10 @@ This directory should be copied to your site's /private/scripts/quicksilver dire
 
 The instructions show how to upload your secrets.json file to your site's private directory.
 ```bash
-# Get SFTP credentials for your site and connect
+# Get SFTP credentials for your site and connect. Replace site.env in the command below with your site's information and then run the command result on output.
 terminus connection:info  --field=sftp_command site.env
 
-# SFTP secrets.json to your site.env
+# SFTP secrets.json to your site.env.
 cd /files/private/
 put secrets.json
 exit

@@ -18,6 +18,8 @@ exit
 ```
 In order for the script to be triggered when a Multidev environment is created, it needs to be called from your sites pantheon.yml file. The code below will need to be added to the workflows section.
 ```
+# pantheon.yml
+
 workflows:
   create_cloud_development_environment:
     after:
